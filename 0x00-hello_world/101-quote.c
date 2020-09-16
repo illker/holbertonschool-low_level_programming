@@ -1,6 +1,7 @@
 /* understand the simplicity */
 
 #include <stdio.h>
+#include <unistd.h>
 
 /**
 * main - write
