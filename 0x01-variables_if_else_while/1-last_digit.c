@@ -4,9 +4,8 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
-* main - The last digit 
+* main - The last digit
 * Description: evaluates the number
 * Return: 0
 */
