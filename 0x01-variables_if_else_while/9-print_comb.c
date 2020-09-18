@@ -20,12 +20,12 @@ putchar (n);
 if (n < 57)
 {
 putchar (44);
-putchar (127);
+putchar (32);
 }
 n++;
 }
 
-putchar('\n');
+putchar(10);
 
 return (0);
 }
