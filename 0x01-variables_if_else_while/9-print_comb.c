@@ -10,19 +10,18 @@
 
 int main(void)
 {
-int n;
+int n, m;
 
 n = 48;
 
-while (n <= 57)
+while (n < 58)
 {
 putchar (n);
-if (n == 57)
+if (n < 57)
 {
-break;
-}
 putchar (44);
 putchar (127);
+}
 n++;
 }
 
