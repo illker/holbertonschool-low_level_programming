@@ -22,7 +22,7 @@ putchar (n);
 putchar (m);
 putchar (l);
 
-if (n == 56 && m == 57 && l == 57)
+if (n == 55 && m == 56 && l == 57)
 {
 putchar (10);
 break;
