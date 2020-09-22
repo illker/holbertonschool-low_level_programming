@@ -1,6 +1,4 @@
-/* 7-print_last_digit.c */
-
-#include <holberton.h>
+#include "holberton.h"
 
 /**
 * _abs -  Prototype

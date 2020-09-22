@@ -1,6 +1,4 @@
-/* 6-abs.c */
-
-#include <holberton.h>
+#include "holberton.h"
 
 /**
 * _abs -  Prototype
@@ -10,7 +8,6 @@
 
 int _abs(int n);
 {
-
 if (n < 0)
 {
 n = n * -1;
