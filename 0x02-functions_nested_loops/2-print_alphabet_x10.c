@@ -1,6 +1,4 @@
-/* 10 x alphabet  */
-
-#include <holberton.h>
+#include "holberton.h"
 
 /**
 * main -  Prototype
