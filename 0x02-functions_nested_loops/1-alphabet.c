@@ -8,10 +8,10 @@
 
 void print_alphabet(void)
 {
-int a;
-for (a = 97; a <= 122; a++)
+int xa;
+for (xa = 97; xa <= 122; xa++)
 {
-_putchar(a);
+_putchar(xa);
 }
 _putchar(10);
 }
