@@ -1,19 +1,16 @@
 #include "holberton.h"
-
 /**
-* main -  Prototype
-* Description: the alphabet game
-* Return: print a
-*/
-
+ * print_alphabet.
+ *
+ * Return: print the alphabet in lowercase.
+ */
 void print_alphabet(void)
 {
-	int xa;
+	int x;
 
-	for (xa = 97; xa <= 122; xa++)
+	for (x = 'a'; x <= 'z' ; x++)
 	{
-		_putchar(xa);
+		_putchar(x);
 	}
-
-	_putchar(10);
+	_putchar('\n');
 }
