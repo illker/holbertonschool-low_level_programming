@@ -1,6 +1,4 @@
-/* 3-islower.c */
-
-#include <holberton.h>
+#include "holberton.h"
 
 /**
 * _islower - Prototype
