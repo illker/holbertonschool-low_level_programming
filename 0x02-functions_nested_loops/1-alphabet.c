@@ -3,8 +3,8 @@
 #include <holberton.h>
 
 /**
-* main -  Prototype 
-* Description: the alphabet game 
+* main -  Prototype
+* Description: the alphabet game
 * Return: 0
 */
 void print_alphabet(void);

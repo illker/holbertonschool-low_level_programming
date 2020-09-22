@@ -3,7 +3,7 @@
 #include <holberton.h>
 
 /**
-* main -  Prototype 
+* main -  Prototype
 * Description: prints 10 times the alphabet
 * Return: 0
 */
