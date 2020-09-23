@@ -3,12 +3,13 @@
 /**
 * jack_bauer -  Prototype
 * @n: variable n
+* @m: variable m
 * Return: prints every minute of the day of Jack Bauer
 */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
-int n, m:
+int n, m;
 
 for (n = 0; n < 24 ; n++)
 {
