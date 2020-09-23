@@ -6,7 +6,7 @@
 * Return: 0
 */
 
-void times_table(void);
+void times_table(void)
 {
 int n, m, x;
 
