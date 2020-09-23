@@ -4,7 +4,7 @@
 /**
  * print_to_98  - print numbers n to 98
  * @n: int
- * Return: print to stdout num n to 98 
+ * Return: print to stdout num n to 98
  */
 void print_to_98(int n)
 {

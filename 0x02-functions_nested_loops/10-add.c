@@ -3,7 +3,7 @@
 /**
 * add - add two int.
 * @x: 1 variable
-* @b: 2 variable
+* @y: 2 variable
 * Return: result of +
 */
 
