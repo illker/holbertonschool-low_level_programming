@@ -2,8 +2,6 @@
 
 /**
 * jack_bauer -  Prototype
-* @n: variable n
-* @m: variable m
 * Return: prints every minute of the day of Jack Bauer
 */
 
