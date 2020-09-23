@@ -19,14 +19,14 @@ if (m == 0)
 {
 _putchar(x + 48);
 }
-else if (k <= 9)
+else if (x <= 9)
 {
 _putchar(44);
 _putchar(32);
 _putchar(32);
 _putchar(x + 48);
 }
-else if (k >= 10)
+else if (x >= 10)
 {
 _putchar(44);
 _putchar(32);
