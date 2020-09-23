@@ -31,7 +31,7 @@ else if (k >= 10)
 _putchar(44);
 _putchar(32);
 _putchar((x / 10) + 48);
-_putchar((x % 10) + 48);  
+_putchar((x % 10) + 48);
 }
 }
 _putchar(10);
