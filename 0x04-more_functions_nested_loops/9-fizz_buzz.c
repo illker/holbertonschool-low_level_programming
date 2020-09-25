@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
-  * main - Fizz-Buzz test
-  *
-  * Return: 0
+  * main - entry block
+  * @void: no argument
+  * Return: 0 Success
   */
-
 int main(void)
 {
 	int i;
@@ -28,6 +26,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	printf("Buzz");
-	printf(10);
+	printf("\n");
 	return (0);
 }
