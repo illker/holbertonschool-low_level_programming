@@ -10,13 +10,13 @@ void print_most_numbers(void)
 {
 	int a = 48;
 
-	while (a >= 57)
+	while (a <= 57)
 	{
 	if (a != 50 && a != 52)
 	{
 		_putchar(a);
-		a++;
 	}
+	a++;
 	}
 	_putchar(10);
 }
