@@ -1,41 +1,48 @@
 #include "holberton.h"
-
 /**
-* times_table -  Prototype
-* @n: int variable
-* Return: 0
-*/
-
+ * print_times_table - prints nx times table
+ * @n: value of how large the times table should be
+ *
+ * Return: void
+ */
 void print_times_table(int n)
 {
-int n, m, x;
-if ((n < 15) && (n >= 0))
+if (n < 16 && n > -1)
 {
-for (n = 0; n < 10 ; n++)
+int column, row, sum, h, t, o;
+column = 0;
+while (column <= n)
 {
-for (m = 0; m < 10 ; m++)
+_putchar('0');
+row = 1;
+while (row <= n)
 {
-x = n * m;
-if (m == 0)
+sum = column *row;
+h = sum / 100, t = sum / 10 % 10, o = sum % 10;
+_putchar(',');
+_putchar(' ');
+if (sum > 99)
 {
-_putchar(x + 48);
+_putchar(h + '0');
+_putchar(t + '0');
+_putchar(o + '0');
 }
-else if (x <= 9)
+else if (sum < 10)
 {
-_putchar(44);
-_putchar(32);
-_putchar(32);
-_putchar(x + 48);
+_putchar(' ');
+_putchar(' ');
+_putchar(o + '0');
 }
-else if (x >= 10)
+else
 {
-_putchar(44);
-_putchar(32);
-_putchar((x / 10) + 48);
-_putchar((x % 10) + 48);
+_putchar(' ');
+_putchar(t + '0');
+_putchar(o + '0');
 }
+row++;
 }
-_putchar(10);
+_putchar('\n');
+column++;
 }
 }
 }
