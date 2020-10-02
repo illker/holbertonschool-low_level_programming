@@ -1,16 +1,6 @@
-#include "holberton.h"
-
-/**
- * *rot13 - prototype function
- * @s: - Variable char pointer
- * Return: int value
- */
-
-char *rot13(char *s)
-{
 	int a, b;
-	char l[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char n[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char l[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char n[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
@@ -18,6 +8,7 @@ char *rot13(char *s)
 		{
 			if (s[a] == l[b])
 				s[a] = n[b];
+				break;
 		}
 	}
 	return (s);
