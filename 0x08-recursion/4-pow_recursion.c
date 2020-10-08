@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * _print_rev_recursion - prototype function
- * @s: - Variable char pointer
- * Return: Void
+ * _pow_recursion - prototype function
+ * @x: - Variable int
+ * @y: - Variable int
+ * Return: int value
  */
 
 int _pow_recursion(int x, int y)
