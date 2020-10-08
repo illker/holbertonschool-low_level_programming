@@ -48,5 +48,5 @@ int is_palindrome(char *s)
 	a = teamf1(s);
 	if (a <= 1)
 		return (1);
-	return (teamf2(s, i));
+	return (teamf2(s, a));
 }
