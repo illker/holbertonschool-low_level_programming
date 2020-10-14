@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 	a--;
 	b++;
 	if (d == NULL)
-		return(NULL);
+		return (NULL);
 	for (c = 0, e = 0; c < (a + b); c++)
 	{
 		if (c < a)
