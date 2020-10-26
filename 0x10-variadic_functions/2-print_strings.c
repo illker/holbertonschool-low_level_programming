@@ -1,12 +1,12 @@
 #include "variadic_functions.h"
 /**
- * print_numbers - sum of all parameters
+ * print_strings - sum of all parameters
  * @separator: arguments to function
  * @n: arguments to function
  * Return: sum
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int a;
 	va_list list;
@@ -20,7 +20,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("(nil)");
 		else
 			printf("%s", s);
-		if (i < (n - 1) && separator)
+		if (a < (n - 1) && separator)
 			printf("%s", separator);
 	}
 	printf("\n");
