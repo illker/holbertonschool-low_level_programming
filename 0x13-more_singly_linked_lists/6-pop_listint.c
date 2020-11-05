@@ -8,11 +8,8 @@
 int pop_listint(listint_t **head)
 {
 	int n;
-	listint_t *copy;
+	listint_t *copy = NULL;
 
-	copy = malloc(sizeof(listint_t));
-	if (copy == NULL)
-		return (0);
 	if (*head == NULL)
 		return (0);
 	copy = *head;
