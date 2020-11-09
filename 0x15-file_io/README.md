@@ -2,19 +2,29 @@
 
 ## This project is about
 
-Look for the right source of information online
-How to create, open, close, read and write files
-What are file descriptors
-What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
-How to use the I/O system calls open, close, read and write
-What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
-What are file permissions, and how to set them when creating a file with the open system call
-What is a system call
-What is the difference between a function and a system call
+:arrow_forward: Look for the right source of information online
+
+:arrow_forward: How to create, open, close, read and write files
+
+:arrow_forward: What are file descriptors
+
+:arrow_forward: What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
+
+:arrow_forward: How to use the I/O system calls open, close, read and write
+
+:arrow_forward: What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
+
+:arrow_forward: What are file permissions, and how to set them when creating a file with the open system call
+
+:arrow_forward: What is a system call
+
+:arrow_forward: What is the difference between a function and a system call
 
 # Useful Resources
 [File descriptor](https://en.wikipedia.org/wiki/File_descriptor)
+
 [POSIX](https://en.wikipedia.org/wiki/POSIX)
+
 [Standard streams](https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin))
 
 ## Task
