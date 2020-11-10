@@ -61,5 +61,11 @@ int main(int argc, char *argv[])
 		if (file_write == -1)
 			return (printfails(99, argv[2]));
 	}
+	file_close = close(open_file1);
+	if (file_close == -1)
+		return (printfails(100, "a"));
+	file_close = close(open_file2);
+	if (file_close == -1)
+		return (printfails(100, "b"));
 	return (0);
 }
