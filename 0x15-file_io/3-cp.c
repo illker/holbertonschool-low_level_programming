@@ -42,10 +42,10 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 		return (printfails(97, NULL));
 
-	open_file1 = open(argv[1], O_RDWR);
+	open_file1 = open(argv[1], O_RDONLY);
 	if (open_file1 == -1)
 		return (printfails(98, argv[1]));
-	open_file2 = open(argv[2], O_RDWR | O_TRUNC | O_CREAT, 0664);
+	open_file2 = open(argv[2], O_WRONLY | O_TRUNC | O_CREAT, 0664);
 	if (open_file2 == -1)
 	{
 		file_close = close(open_file1);
