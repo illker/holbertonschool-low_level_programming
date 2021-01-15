@@ -9,11 +9,13 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *hashish;
-	unsigned long int a;
 
 	hashish = malloc(sizeof(hash_table_t));
 
-	if (size == 0 || hashish == NULL)
+	if (size == 0)
+		return (NULL);
+
+	if (hashish == NULL)
 		return (NULL);
 
 	hashish->array = calloc(size, sizeof(hash_node_t *));
