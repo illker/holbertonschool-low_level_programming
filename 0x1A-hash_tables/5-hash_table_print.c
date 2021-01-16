@@ -14,18 +14,19 @@ void hash_table_print(const hash_table_t *ht)
 
 	if (ht == NULL)
 		return;
-
+    printf("{");
 	for (a = 0; a <= ht->size; a++)
 	{
 		if (ht->array[a])
 		{
-			hashish = ht->array[a];
+            hashish = ht->array[a];
 			for (b = 0; hashish != NULL; hashish = hashish->next, b++)
 			{
-				if (b == 0)
-					printf(" ");
-				printf("%s': '%s'", hashish->key, hashish->value);
+				if (b == 1)
+					printf(", ");
+				printf("'%s': '%s'", hashish->key, hashish->value);
 			}
 		}
 	}
+    printf("}\n");
 }
