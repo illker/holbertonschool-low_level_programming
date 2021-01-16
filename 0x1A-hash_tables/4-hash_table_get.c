@@ -22,7 +22,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (hashish == NULL)
 		return (NULL);
 
-	for (a = strcmp(key, hashish->key); hashish != NULL; )
+	for (a = strcmp(key, hashish->key); hashish; )
 	{
 		if (a == 0)
 		{
