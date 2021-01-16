@@ -24,7 +24,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	for (a = strcmp(key, hashish->key); hashish != NULL; )
 	{
-        if (strcmp(hashish->key, key) == 0)
+		if (a == 0)
 		{
 			return (hashish->value);
 		}
