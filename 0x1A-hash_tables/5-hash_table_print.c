@@ -6,27 +6,28 @@
  * Return: hash value
  */
 
+
 void hash_table_print(const hash_table_t *ht)
 {
-	hash_node_t *hashish;
-	unsigned long a;
-	int b;
+	hash_node_t *hashish = NULL;
+	unsigned long int index;
+	unsigned int i = 0;
 
-	if (ht == NULL)
-		return;
-    printf("{");
-	for (a = 0; a <= ht->size; a++)
+	if (ht)
 	{
-		if (ht->array[a])
+		printf("{");
+		for (index = 0; index < ht->size; index++)
 		{
-            hashish = ht->array[a];
-			for (b = 0; hashish != NULL; hashish = hashish->next, b++)
+			hashish = ht->array[index];
+			while (hashish != NULL)
 			{
-				if (b == 1)
+				if (i == 1)
 					printf(", ");
 				printf("'%s': '%s'", hashish->key, hashish->value);
+				i = 1;
+				hashish = hashish->next;
 			}
 		}
+		printf("}\n");
 	}
-    printf("}\n");
 }
