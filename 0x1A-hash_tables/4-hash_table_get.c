@@ -24,8 +24,10 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	for (a = strcmp(key, hashish->key); hashish != NULL; )
 	{
-		if (a == 0)
+        if (strcmp(hashish->key, key) == 0)
+		{
 			return (hashish->value);
+		}
 		hashish = hashish->next;
 	}
 	return (NULL);
